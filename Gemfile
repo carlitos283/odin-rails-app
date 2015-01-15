@@ -10,9 +10,12 @@ gem 'turbolinks', '~> 2.5.3'
 gem 'jbuilder', '~> 2.2.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# gem 'therubyracer', platforms: :ruby
+
+group :production do
+  gem 'therubyracer', platforms: :ruby
+  gem 'unicorn'
+end
 # gem 'bcrypt', '~> 3.1.7'
-# gem 'unicorn'
 # gem 'capistrano-rails', group: :development
 
 
