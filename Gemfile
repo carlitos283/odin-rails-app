@@ -14,7 +14,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :production do
   gem 'therubyracer', platforms: :ruby
   gem 'unicorn'
+  gem 'pg', '~> 0.18.0'
 end
+
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
