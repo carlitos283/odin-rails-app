@@ -9,12 +9,12 @@ gem 'jquery-rails', '~> 4.0.3'
 gem 'turbolinks', '~> 2.5.3'
 gem 'jbuilder', '~> 2.2.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'pg', '~> 0.18.0'
 
 
 group :production do
   gem 'therubyracer', platforms: :ruby
   gem 'unicorn'
-  gem 'pg', '~> 0.18.0'
 end
 
 # gem 'bcrypt', '~> 3.1.7'
